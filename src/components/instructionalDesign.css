@@ -1,0 +1,58 @@
+.instructionalDesign {
+    display: flex;
+    flex-direction: column;
+}
+
+.instructionalDesignElement {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.instructionalDesignInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 540px;
+}
+
+.instructionalDesignItem {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.instructionalDesignDesc {
+    color: #424242;
+    /*font-family: Museo Sans Cyrl;*/
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 150%;
+}
+
+.instructionalDesignMainTitle {
+    color: #999B9A;
+    text-align: center;
+    /*font-family: Museo Sans Cyrl;*/
+    font-size: 50px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.instructionalDesignTitle {
+    color: #424242;
+    /*font-family: Museo Sans Cyrl;*/
+    font-size: 30px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.imgInDsn {
+    width: 392px;
+    height: 392px;
+}
+
+.checkIcon {
+    width: 26px;
+    height: 16px;
+}
