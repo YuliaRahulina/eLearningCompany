@@ -1,4 +1,4 @@
-
+import {useState} from "react";
 import './App.css';
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -56,8 +56,12 @@ const listFour = [
 ]
 
 function App() {
+    const [visibilityLiveChat, toggleVisibilityLiveChat] = useState(false);
+    function handleVisibilityLiveChat () {
+        toggleVisibilityLiveChat(!visibilityLiveChat)
+    }
   return (
-    <div className="app">
+    <div>
         <Header/>
         <div className="appServicesContainer">
             <Services list={listOne} />
@@ -69,8 +73,8 @@ function App() {
         <InstructionalDesign/>
         <Contacts/>
         <Footer/>
-        <LiveChat/>
-        <LiveChatAction/>
+        {visibilityLiveChat && <LiveChat/>}
+        <LiveChatAction onClick={handleVisibilityLiveChat}/>
     </div>
   );
 }

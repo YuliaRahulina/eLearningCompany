@@ -2,8 +2,8 @@
     position: fixed;
     right: 20px;
     bottom: 20px;
-    width: 55px;
-    height: 55px;
+    width: 45px;
+    height: 45px;
     background-color: #29B4AD;
     display: flex;
     align-items: center;
@@ -15,5 +15,5 @@
 }
 
 .iconChat {
-    height: 20px;
+    height: 12px;
 }

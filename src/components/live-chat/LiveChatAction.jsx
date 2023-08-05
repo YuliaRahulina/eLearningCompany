@@ -1,9 +1,9 @@
 import './liveChatAction.css'
 import iconChat from "../../assets/iconChat.png"
 
-function LiveChatAction() {
+function LiveChatAction(props) {
     return (
-        <button className="liveChatAction">
+        <button onClick={props.onClick} className="liveChatAction">
             <img className="iconChat" src={iconChat} alt=""/>
         </button>
     );
