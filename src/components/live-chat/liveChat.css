@@ -1,0 +1,106 @@
+.liveChat {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 20px;
+    bottom: 90px;
+    width: 230px;
+    height: 310px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 3.8181819915771484px 15.272727966308594px 0px rgba(52, 52, 52, 0.10);
+}
+
+.liveChatHeader {
+    display: flex;
+    align-items: center;
+    width: calc(100% - 14px);
+    height: 45px;
+    background: #29B4AD;
+    border-radius: 10px;
+    padding: 0 7px 0 7px;
+    gap: 15px;
+}
+
+.liveChatHeaderMainText {
+    margin: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.liveChatHeaderText {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.liveChatContent {
+    width: 100%;
+    height: 217px;
+    position: relative;
+}
+
+.liveChat1 {
+    position: absolute;
+    top: 5px;
+    left: 100px;
+    color: rgba(56, 56, 56, 0.45);
+    text-align: center;
+    /*font-family: Museo Sans Cyrl;*/
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.liveChat2 {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    background-image: url("../../assets/liveChat6.png");
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.liveChatInputContainer {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: calc(100% - 3px);
+    height: 45px;
+    display: flex;
+    border: 2px solid #e1e1e1;
+    border-radius: 10px;
+}
+
+::-webkit-input-placeholder {
+    color: rgba(56, 56, 56, 0.45);
+}
+
+.liveChatInput{
+    margin: 0;
+    border: 0;
+    color: black;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    outline:none;
+    padding: 0 5px 0 5px;
+}
+
+.liveChatImg {
+    width: 23px;
+    height: 23px;
+}
+

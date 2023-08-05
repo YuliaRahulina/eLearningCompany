@@ -23,6 +23,8 @@ import srv13 from "./assets/srv13.png";
 import srv14 from "./assets/srv14.png";
 import srv15 from "./assets/srv15.png";
 import srv16 from "./assets/srv16.png";
+import LiveChat from "./components/live-chat/LiveChat";
+import LiveChatAction from "./components/live-chat/LiveChatAction";
 
 
 const listOne = [
@@ -55,7 +57,7 @@ const listFour = [
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
         <Header/>
         <div className="appServicesContainer">
             <Services list={listOne} />
@@ -67,6 +69,8 @@ function App() {
         <InstructionalDesign/>
         <Contacts/>
         <Footer/>
+        <LiveChat/>
+        <LiveChatAction/>
     </div>
   );
 }
