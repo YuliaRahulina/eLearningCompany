@@ -9,7 +9,7 @@ function InstructionalDesign() {
             <div className="instructionalDesignElement">
                 <img className="imgInDsn" src={inDsn1} alt=""/>
                 <div className="instructionalDesignInfo">
-                    <p className="instructionalDesignTitle"></p>
+                    <p className="instructionalDesignTitle">We know learning inside and out </p>
                     <p className="instructionalDesignDesc">Our instructional design team will work hard to align your business goals with your learning objectives to ensure the training supports your business strategies.</p>
                     <div className="instructionalDesignItem">
                         <img className="checkIcon" src={checkIcon} alt=""/>
@@ -27,12 +27,11 @@ function InstructionalDesign() {
             </div>
             <div className="instructionalDesignElement">
                 <div className="instructionalDesignInfo">
-                    <p className="instructionalDesignTitle"></p>
+                    <p className="instructionalDesignTitle">Our clients love the work we do </p>
                     <p className="instructionalDesignDesc">We pride ourselves on developing training strategies with the learners in mind, ensuring your time and resources are well utilized.</p>
                     <div className="instructionalDesignItem">
                         <img className="checkIcon" src={checkIcon} alt=""/>
-                        <p>We start each project with a careful analysiys of your
-                            learning needs</p>
+                        <p>We start each project with a careful analysiys of your learning needs</p>
                     </div>
                     <div className="instructionalDesignItem">
                         <img className="checkIcon" src={checkIcon} alt=""/>

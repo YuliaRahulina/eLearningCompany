@@ -28,12 +28,12 @@
     margin: 0 0 40px 0;
 }
 
-.input {
+.contactsInput {
     width: 433px;
     height: 55px;
     border-radius: 27.5px;
     background: #41A297;
-    border: 0 solid #41A297;
+    border: 0;
     color: #FFF;
     text-align: left;
     /*font-family: Museo Sans Cyrl;*/
@@ -45,8 +45,9 @@
     padding: 0 15px 0 15px;
 }
 
-::-webkit-input-placeholder {
-    color:    white;
+.contactsContainer ::-webkit-input-placeholder {
+    color: white;
+    background: #41A297 !important
 }
 
 .textarea {

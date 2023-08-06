@@ -1,8 +1,6 @@
 import './liveChat.css'
 // import liveChat1 from '../../assets/liveChat1.png'
 // import liveChat2 from '../../assets/liveChat2.png'
-import liveChat4 from '../../assets/liveChat4.png'
-import liveChat5 from '../../assets/liveChat5.png'
 import liveChat7 from '../../assets/liveChat7.png'
 import liveChat8 from '../../assets/liveChat8.png'
 
@@ -23,9 +21,9 @@ function LiveChat() {
             </div>
             <div className="liveChatInputContainer">
                 <input className="liveChatInput" placeholder="Your message..." type="text"/>
-                <div>
-                    <img className="liveChatImg" src={liveChat4} alt=""/>
-                    <img className="liveChatImg" src={liveChat5} alt=""/>
+                <div className="liveChatImgs">
+                    <div className="liveChatImg1"></div>
+                    <div className="liveChatImg2"></div>
                 </div>
             </div>
         </div>

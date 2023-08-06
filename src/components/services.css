@@ -30,7 +30,7 @@
 }
 
 .servicesTitle {
-    color: #212121;
+    color: var(--text-color);
     text-align: center;
     /*font-family: Museo Sans Cyrl;*/
     font-size: 16px;
@@ -41,9 +41,8 @@
 }
 
 .servicesDesc {
-    color: #212121;
+    color: var(--text-color);
     text-align: center;
-    /*font-family: Museo Sans Cyrl;*/
     font-size: 14px;
     font-weight: 300;
     line-height: 145%; /* 20.3px */

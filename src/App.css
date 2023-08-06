@@ -1,6 +1,24 @@
+:root {
+    --primary-bg: white;
+    --text-color: #212121;
+    --gray-text-color: rgba(56, 56, 56, 0.45);
+    --live-chat-img1: url('./assets/liveChat6.png');
+    --live-chat-img2: url('./assets/liveChat4.png');
+    --live-chat-img3: url('./assets/liveChat5.png');
+}
+
 .app {
     position: relative;
-    background: white;
+    background: var(--primary-bg);
+}
+
+.darkTheme {
+    --primary-bg: #343434;
+    --text-color: #FFF;
+    --gray-text-color: rgba(255, 255, 255, 0.45);
+    --live-chat-img1: url('./assets/liveChat3.png');
+    --live-chat-img2: url('./assets/liveChat1.png');
+    --live-chat-img3: url('./assets/liveChat2.png');
 }
 
 .appServicesContainer {

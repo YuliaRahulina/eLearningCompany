@@ -25,6 +25,7 @@ import srv15 from "./assets/srv15.png";
 import srv16 from "./assets/srv16.png";
 import LiveChat from "./components/live-chat/LiveChat";
 import LiveChatAction from "./components/live-chat/LiveChatAction";
+import ThemeAction from "./components/ThemeAction";
 
 
 const listOne = [
@@ -61,7 +62,7 @@ function App() {
         toggleVisibilityLiveChat(!visibilityLiveChat)
     }
   return (
-    <div>
+    <div id="app" className="app">
         <Header/>
         <div className="appServicesContainer">
             <Services list={listOne} />
@@ -75,6 +76,7 @@ function App() {
         <Footer/>
         {visibilityLiveChat && <LiveChat/>}
         <LiveChatAction onClick={handleVisibilityLiveChat}/>
+        <ThemeAction/>
     </div>
   );
 }

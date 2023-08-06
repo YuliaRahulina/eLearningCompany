@@ -1,0 +1,13 @@
+.themeAction {
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+}
+
+.iconThemeChat {
+    width: 45px;
+    height: 45px;
+}
