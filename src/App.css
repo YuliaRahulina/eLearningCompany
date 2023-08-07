@@ -26,12 +26,12 @@
 .appServicesContainer {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 10px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .appServicesContainer {
-        gap: 0px;
+        gap: 0;
     }
 }
 

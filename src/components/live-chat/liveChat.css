@@ -14,7 +14,8 @@
 .liveChatHeader {
     display: flex;
     align-items: center;
-    width: calc(100% - 14px);
+    justify-content: space-between;
+    width: 100%;
     height: 45px;
     background: #29B4AD;
     border-radius: 10px;
@@ -26,7 +27,7 @@
     margin: 0;
     color: #FFF;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     line-height: normal;
 }
@@ -34,14 +35,14 @@
 .liveChatHeaderText {
     margin: 0;
     color: rgba(255, 255, 255, 0.50);
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 400;
     line-height: normal;
 }
 
 .liveChatContent {
     width: 100%;
-    height: 217px;
+    height: 220px;
     position: relative;
 }
 
@@ -75,8 +76,8 @@
 .liveChatInputContainer {
     display: flex;
     align-items: center;
-    gap: 20px;
-    width: calc(100% - 3px);
+    justify-content: space-between;
+    width: 100%;
     height: 45px;
     border: 2px solid #e1e1e1;
     border-radius: 10px;
@@ -106,7 +107,6 @@
 .liveChatImgs {
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .liveChatImg1 {
@@ -121,5 +121,16 @@
     height: 23px;
     background-image: var(--live-chat-img3);
     background-size: contain;
+}
+
+@media (max-width: 900px) {
+    .liveChatHeaderMainText {
+        font-size: 12px;
+
+    }
+    .liveChatHeaderText {
+        font-size: 8px;
+    }
+
 }
 

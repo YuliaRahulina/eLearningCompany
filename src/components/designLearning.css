@@ -52,7 +52,7 @@
     height: 426px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .imgMan {
         display: none;
     }
@@ -64,6 +64,8 @@
         margin: 15px 0 35px 0;
     }
     .designLearningContainer {
+        justify-content: flex-start;
+        padding-left: 25px;
         height: auto;
         padding-bottom: 25px;
         gap: 20px;

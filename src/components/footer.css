@@ -1,6 +1,6 @@
 .footer {
     width: 100%;
-    height: 314px;
+    height: 310px;
     background: #414141;
     display: flex;
     flex-direction: column;
@@ -9,9 +9,10 @@
 .boxTop {
     display: flex;
     width: 100%;
-    height: 314px;
+    height: 310px;
     align-items: center;
     justify-content: center;
+    padding-left: 25px;
 }
 
 .boxTopContainer {
@@ -58,7 +59,7 @@
     height: 77px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .boxTopContainer {
         flex-direction: column;
         gap: 18px;
@@ -69,6 +70,8 @@
     }
     .boxTop {
         height: auto;
+        justify-content: flex-start;
+        padding-left: 25px;
     }
     .topContainer a {
         font-size: 8px;

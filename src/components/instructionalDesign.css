@@ -8,13 +8,15 @@
     display: flex;
     justify-content: center;
     gap: 25px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .instructionalDesignInfo {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 540px;
+    max-width: 540px;
     color: var(--text-color);
 }
 
@@ -56,16 +58,17 @@
     height: 16px;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .instructionalDesign {
         gap: 5px;
         padding-bottom: 15px;
     }
     .instructionalDesignElement {
         margin: 0;
-        padding-left: 15px;
+        padding-left: 25px;
         padding-right: 15px;
         gap: 5px;
+        justify-content: flex-start;
     }
     .instructionalDesignInfo {
         width: auto;
