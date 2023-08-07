@@ -11,3 +11,6 @@ You can use the button in the lower right corner of the screen to open a `live-c
 ### Web page was hosted on a hosting service `Netlify`: 
 [https://glowing-dasik-0837d8.netlify.app](https://glowing-dasik-0837d8.netlify.app).
 
+![Photo](./src/assets/readme1.png)
+![Photo](./src/assets/readme2.png)
+![Photo](./src/assets/readme3.png)
