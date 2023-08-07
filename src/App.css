@@ -5,6 +5,7 @@
     --live-chat-img1: url('./assets/liveChat6.png');
     --live-chat-img2: url('./assets/liveChat4.png');
     --live-chat-img3: url('./assets/liveChat5.png');
+    --box-shadow-chat: 0px 3.8181819915771484px 15.272727966308594px 0px rgba(52, 52, 52, 0.10);
 }
 
 .app {
@@ -19,11 +20,18 @@
     --live-chat-img1: url('./assets/liveChat3.png');
     --live-chat-img2: url('./assets/liveChat1.png');
     --live-chat-img3: url('./assets/liveChat2.png');
+    --box-shadow-chat: 0px 3.8181819915771484px 15.272727966308594px 0px rgba(239, 227, 227, 0.1);
 }
 
 .appServicesContainer {
     display: flex;
     flex-direction: column;
     gap: 50px;
+}
+
+@media (max-width: 800px) {
+    .appServicesContainer {
+        gap: 0px;
+    }
 }
 

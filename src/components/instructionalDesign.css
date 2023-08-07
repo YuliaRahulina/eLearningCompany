@@ -55,3 +55,37 @@
     width: 26px;
     height: 16px;
 }
+
+@media (max-width: 800px) {
+    .instructionalDesign {
+        gap: 5px;
+        padding-bottom: 15px;
+    }
+    .instructionalDesignElement {
+        margin: 0;
+        padding-left: 15px;
+        padding-right: 15px;
+        gap: 5px;
+    }
+    .instructionalDesignInfo {
+        width: auto;
+    }
+    .instructionalDesignItem p {
+        font-size: 12px;
+    }
+    .instructionalDesignDesc {
+        font-size: 14px;
+        margin: 0;
+    }
+    .instructionalDesignMainTitle {
+        font-size: 35px;
+        margin: 10px;
+    }
+    .instructionalDesignTitle {
+        font-size: 20px;
+        margin-bottom: 9px;
+    }
+    .imgInDsn {
+        display: none;
+    }
+}

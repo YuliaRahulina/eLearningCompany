@@ -28,7 +28,6 @@
 
 .boxTopContainer a {
     color: #929292;
-    /*font-family: Museo Sans Cyrl;*/
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
@@ -48,7 +47,6 @@
 .boxBottomText {
     color: #595959;
     text-align: center;
-    /*font-family: Museo Sans Cyrl;*/
     font-size: 14px;
     font-style: normal;
     font-weight: 300;
@@ -58,4 +56,31 @@
 .imgFooterLogo {
     width: 234px;
     height: 77px;
+}
+
+@media (max-width: 800px) {
+    .boxTopContainer {
+        flex-direction: column;
+        gap: 18px;
+        padding: 18px;
+    }
+    .footer {
+        height: auto;
+    }
+    .boxTop {
+        height: auto;
+    }
+    .topContainer a {
+        font-size: 8px;
+    }
+    .imgFooterLogo {
+        width: 160px;
+        height: 45px;
+    }
+    .boxBottomText {
+        font-size: 10px;
+    }
+    .boxBottom {
+        height: 40px;
+    }
 }

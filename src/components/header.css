@@ -2,13 +2,13 @@
     background-image: url("../assets/hero.png");
     width: 100%;
     height: 681px;
-    background-size: contain;
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.container {
+.selfContainer {
     display: flex;
     flex-direction: column;
 }
@@ -18,21 +18,11 @@
     grid-template-columns: repeat(4, 1fr);
 }
 
-@media (max-width: 800px) {
-    .raw {
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    }
-    .raw .item {
-        width: 137.75px;
-        height: 137.75px;
-    }
-}
-
-.item {
+.selfItem {
     width: 200px;
     height: 200px;
     background-size: contain;
+    cursor: pointer;
 }
 
 .bg1 {
@@ -98,7 +88,7 @@
 
 .imgLogo {
     width: 107px;
-    height: 21.7px;
+    height: 21px;
 }
 
 .navTextContainer {
@@ -113,4 +103,40 @@
     font-weight: 300;
     line-height: normal;
     text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    .hero {
+        height: auto;
+        padding: 60px;
+    }
+    .raw {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .raw .item {
+        width: 120px;
+        height: 120px;
+    }
+    .selfContainer {
+        display: none;
+    }
+    .navTextContainer {
+        gap: 3px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .navTextContainer a{
+        font-size: 8px;
+    }
+    .navElements {
+        gap: 25px;
+    }
+    .imgLogo {
+        width: 65px;
+    }
+    .nav {
+        height: auto;
+        padding: 5px;
+    }
 }

@@ -1,26 +1,29 @@
 import './header.css'
 import imgLogo from '../assets/logo.png'
+import bgCar1 from '../assets/bg-car1.png'
+import bgCar2 from '../assets/bg-car2.png'
+import bgCar3 from '../assets/bg-car3.png'
+import bgCar4 from '../assets/bg-car4.png'
 
 function Header() {
 
     return (
         <header className="header">
             <div className="hero">
-                <div className="cotainer">
+                <div className="selfContainer">
                     <div className="raw">
-                        <div className="item bg1"></div>
-                        <div className="item bg2"></div>
-                        <div className="item bg3"></div>
-                        <div className="item bg4"></div>
+                        <div className="selfItem bg1"></div>
+                        <div className="selfItem bg2"></div>
+                        <div className="selfItem bg3"></div>
+                        <div className="selfItem bg4"></div>
                     </div>
                     <div className="raw">
-                        <div className="item bg5"></div>
-                        <div className="item bg6"></div>
-                        <div className="item bg7"></div>
-                        <div className="item bg8"></div>
+                        <div className="selfItem bg5"></div>
+                        <div className="selfItem bg6"></div>
+                        <div className="selfItem bg7"></div>
+                        <div className="selfItem bg8"></div>
                     </div>
                 </div>
-            </div>
             <div className="greenBar">
                 <div className="green"></div>
             </div>

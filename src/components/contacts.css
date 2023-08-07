@@ -11,7 +11,6 @@
 .contactsMainTitle{
     color: #FFF;
     text-align: center;
-    /*font-family: Museo Sans Cyrl;*/
     font-size: 50px;
     font-weight: 600;
     line-height: normal;
@@ -21,7 +20,6 @@
 .contactsTitle{
     color: #FFF;
     text-align: center;
-    /*font-family: Museo Sans Cyrl;*/
     font-size: 20px;
     font-weight: 300;
     line-height: normal;
@@ -31,12 +29,11 @@
 .contactsInput {
     width: 433px;
     height: 55px;
-    border-radius: 27.5px;
+    border-radius: 27px;
     background: #41A297;
     border: 0;
     color: #FFF;
     text-align: left;
-    /*font-family: Museo Sans Cyrl;*/
     font-size: 16px;
     font-weight: 300;
     line-height: normal;
@@ -51,13 +48,12 @@
 }
 
 .textarea {
-    border-radius: 27.5px;
+    border-radius: 27px;
     background: #41A297;
     width: 433px;
     height: 181px;
     color: #FFF;
     text-align: left;
-    /*font-family: Museo Sans Cyrl;*/
     font-size: 16px;
     font-weight: 300;
     line-height: normal;
@@ -68,14 +64,42 @@
 .buttonContacts {
     width: 205px;
     height: 55px;
-    border-radius: 27.5px;
+    border-radius: 27px;
     border: 3px solid #FFF;
     margin: 57px;
     color: #FFF;
     text-align: center;
-    /*font-family: Museo Sans Cyrl;*/
     font-size: 20px;
     font-weight: 400;
     line-height: normal;
     background: #3D948C;
+    cursor: pointer;
+}
+
+@media (max-width: 800px) {
+    .contactsContainer {
+        height: auto;
+    }
+    .contactsMainTitle {
+        font-size: 35px;
+    }
+    .contactsTitle {
+        font-size: 14px;
+    }
+    .contactsInput {
+        width: 230px;
+        height: 45px;
+    }
+    .textarea {
+        width: 230px;
+        height: 98px;
+    }
+    .buttonContacts {
+        width: 140px;
+        height: 40px;
+        border-radius: 27px;
+        border: 3px solid #FFF;
+        margin: 37px;
+        font-size: 15px;
+    }
 }

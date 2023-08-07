@@ -17,7 +17,6 @@
 
 .designLearningBigText {
     color: #424242;
-    /*font-family: Museo Sans Cyrl;*/
     font-size: 75px;
     font-weight: 600;
     line-height: 100%;
@@ -27,7 +26,6 @@
 
 .designLearningText {
     color: #424242;
-    /*font-family: Museo Sans Cyrl;*/
     font-size: 35px;
     font-weight: 250;
     line-height: 100%;
@@ -42,14 +40,37 @@
     background: #3D948C;
     border: 0 solid #3D948C;
     color: #FFF;
-    /*font-family: Museo Sans Cyrl;*/
     font-size: 16px;
     font-weight: 400;
     line-height: 100%;
     margin: 5px;
+    cursor: pointer;
 }
 
 .imgMan {
     width: 259px;
     height: 426px;
+}
+
+@media (max-width: 800px) {
+    .imgMan {
+        display: none;
+    }
+    .designLearningBigText {
+        font-size: 40px;
+    }
+    .designLearningText {
+        font-size: 20px;
+        margin: 15px 0 35px 0;
+    }
+    .designLearningContainer {
+        height: auto;
+        padding-bottom: 25px;
+        gap: 20px;
+    }
+    .designLearningButton {
+        width: 140px;
+        height: 40px;
+        font-size: 16px;
+    }
 }

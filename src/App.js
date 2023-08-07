@@ -50,10 +50,10 @@ const listThree = [
 ]
 
 const listFour = [
-    {img: srv13, title: 'bla111', desc: 'We provide full-service instructional design consulting. From standalone lessons to the series of courses, no job is too large or too small for us.'},
-    {img: srv14, title: 'bla111', desc: 'The eLearning products we create feature deep learner engagement and ensure high knowledge transfer.'},
-    {img: srv15, title: 'bla111', desc: 'Let us help you take your learning process anywhere your business may take you. Any place, any time, any device.'},
-    {img: srv16, title: 'bla111', desc: 'We are experts at developing a classroom curriculum that meets your business needs and exceeds even your highest expectations.'},
+    {img: srv13, title: 'Instructional Design', desc: 'We provide full-service instructional design consulting. From standalone lessons to the series of courses, no job is too large or too small for us.'},
+    {img: srv14, title: 'ELEARNING DEVELOPMENT', desc: 'The eLearning products we create feature deep learner engagement and ensure high knowledge transfer.'},
+    {img: srv15, title: 'MOBILE LEARNING', desc: 'Let us help you take your learning process anywhere your business may take you. Any place, any time, any device.'},
+    {img: srv16, title: 'INSTRUCTOR-LED TRAINING', desc: 'We are experts at developing a classroom curriculum that meets your business needs and exceeds even your highest expectations.'},
 ]
 
 function App() {
