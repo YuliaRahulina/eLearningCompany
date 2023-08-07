@@ -1,6 +1,6 @@
 # eLearning Company
 
-This web page was created using `React` and `SASS` based on the design provided in `Figma`.
+This web page was created using `React` and `SCC` based on the design provided in `Figma`.
 
 Web page is responsive and works well on different screen sizes.
 Carousel component, available on phone screen size, was created by using UI framework `Bootstrap`.
